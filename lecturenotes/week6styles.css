@@ -1,0 +1,19 @@
+ /* below we have a grouped selector */
+ p, ul {
+    color:darksalmon;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+/* descendant selector (only select certain elements within a certain element (in this case, a tags within p tags))*/
+p a {
+    color: green;
+}
+#firstparagraph {
+    color: steelblue;
+}
+.pinktext {
+    color: pink;
+}
+a {
+    text-decoration: none;
+}

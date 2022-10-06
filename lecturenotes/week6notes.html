@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 CSS Intro</title>
+    <!-- this is an embedded style sheet -->
+    <style>
+        /* below we have a grouped selector */
+        p, ul {
+            color:darksalmon;
+            font-family:Arial, Helvetica, sans-serif;
+            text-decoration: underline;
+        }
+        /* descendant selector (only select certain elements within a certain element (in this case, a tags within p tags))*/
+        p a {
+            color: green;
+        }
+        #firstparagraph {
+            color: steelblue;
+        }
+        .pinktext {
+            color: pink;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <a href="http://www.amazon.com">Amazon</a>
+    <!-- id values must be unique -->
+    <p id="firstparagraph">Lorem ipsum dolor sit amet, <a href="http://www.google.com">Google</a> consectetur adipisicing elit. Exercitationem, quibusdam quia voluptas nisi nam ab atque, omnis nobis voluptatem obcaecati incidunt. Deleniti deserunt, animi officia nesciunt odio inventore eum exercitationem?</p>
+    <ul>
+        <li>green</li>
+        <li class="pinktext">blue</li>
+    </ul>
+    <p>I'm excited it's almost Halloween!</p>
+    <p class="pinktext">I'm going to be a ghost.</p>
+</body>
+</html>
