@@ -1,0 +1,79 @@
+body {
+    background-color: #C5D2E0;
+    color: #000;
+}
+
+h1, h2 {
+    color: #4B61FC;
+} 
+
+body a {
+  color: #DE7737;  
+}
+
+nav {
+    background-color: #4B61FC;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover {
+    background-color: #25307D;
+}
+.quote {
+    float: right;
+}
+.topcontact, .bottomcontact {
+    display: flex;
+    background-color: #fff;
+    border-radius: 1em;
+    margin: 10px;
+    padding: 10px;
+}
+.mapdiv {
+    flex: 2;
+}
+.formdiv {
+    flex: 1;
+}
+.socialdiv {
+    flex: 2
+}
+.addressdiv {
+    flex: 1;
+}
+.technicalskills {
+    display: flex;
+    justify-content: center;
+}
+.topskills {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+
+}
+.otherskills {
+    background-color: #DE7737;
+    border-radius: 10px;
+    padding: 10px;
+}
+.skillsdiv {
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.topskillsdiv {
+    flex-basis: 75%;
+    margin-top: 50px;
+    margin-right: 25px;
+    
+    
+}
+.otherskillsdiv {
+    flex-basis: 25%;
+}

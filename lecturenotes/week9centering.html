@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9 Centering</title>
+    <style>
+        p {
+            text-align: center;
+            border: 2px solid red;
+        }
+        .margincenter {
+            border: 2px solid blue;
+            width: 30%;
+            margin: 0 auto; /* old school method of how to get equal margins */
+        }
+        .flexhack {
+            border: 2px dashed green;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- centering the text only -->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestiae in quidem nihil quis voluptatibus modi, perferendis iusto accusamus voluptatem voluptas maxime facere repellat eos doloremque sit nisi omnis debitis.
+    </p>
+    <div class="margincenter">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos fugiat quisquam deserunt, dicta facilis numquam nam obcaecati placeat, fuga nostrum reprehenderit at eius soluta quasi temporibus! Sequi totam iste modi.
+    </div>
+    <div class="flexhack">
+        This is a flex hack
+    </div>
+</body>
+</html>
