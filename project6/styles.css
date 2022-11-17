@@ -1,0 +1,161 @@
+/*Start General*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h2 {
+    margin-left: 10%;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+
+p {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-weight: 400;
+    font-size: 1em;
+}
+.description {
+    font-weight: 500;
+}
+.copyright {
+    margin-left: 1%;
+    font-weight: 300;
+    font-size: .9em;
+
+
+}
+
+/*End General*/
+
+/* Start Navigation*/
+
+nav {
+    background-color: #FFE4B0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+nav a {
+    text-decoration: none;
+    color: #5C58A3;
+}
+.navDivParent {
+    display: flex;
+}
+.navDivChild {
+    justify-content: space-around;
+    padding-right: 1.7em;
+    padding-left: 1.7em;
+    font-weight: 500;
+}
+.siteName {
+    padding-right: 6em;
+    padding-left: 0em;
+    font-weight: 600;
+}
+/* End Navigation*/
+
+/*Start Hero Section */
+
+.heroImg {
+    width: 600px;
+}
+header {
+    background-color: #BCFAFF;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+header p {
+    font-size: 1.3em;
+}
+header h1 {
+    font-size: 2.5em;
+    font-weight: 800;
+}
+.heroDivParent {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.heroDivChildText {
+    flex-basis: 60%;
+    margin-right: 5em;
+}
+.heroDivChildImg {
+    flex-basis: 40%;
+    margin-left: 5em;
+}
+
+
+/*End Hero Section */
+
+/* START HOME PAGE */
+
+/*Start Image Grid*/
+
+.petGrid img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.petGrid p {
+    padding-bottom: 20px;
+}
+.petGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*End Image Grid*/
+
+/* Start Pet Benefits */
+
+.petBenefits {
+    padding-left: 10%;
+}
+.petBenefits li {
+    margin-bottom: 5px;
+    width: 75%;
+}
+
+/* End Pet Benefits */
+
+/* Start Testimonials */
+
+.testimonials {
+    margin-left: 10%;
+}
+.testimonials img {
+    width: 400px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+.testimonialsParent {
+    display: flex;
+    margin-top: .5em;
+}
+
+.testimonialsChild p {
+    width: 50%;
+    margin-top: 0%;
+}
+
+/* End Testimonials */
+
+
+/* END HOME PAGE */
