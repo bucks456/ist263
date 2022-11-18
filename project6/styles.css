@@ -18,7 +18,7 @@ body {
 }
 h2 {
     margin-left: 10%;
-    margin-bottom: 0.5em;
+    margin-bottom: .05em;
     font-weight: 700;
     color: #6A96A6;
 }
@@ -31,6 +31,8 @@ p {
 }
 .description {
     font-weight: 500;
+    margin-bottom: 1em;
+
 }
 .copyright {
     margin-left: 1%;
@@ -105,11 +107,11 @@ header h1 {
 }
 .heroDivChildText {
     flex-basis: 60%;
-    margin-right: 5em;
+    margin-right: 1em;
 }
 .heroDivChildImg {
     flex-basis: 40%;
-    margin-left: 5em;
+    margin-left: 1em;
 }
 
 
@@ -118,7 +120,9 @@ header h1 {
 /* START HOME PAGE */
 
 /*Start Image Grid*/
-
+.petExamples .description {
+    padding-left: 10%;
+}
 .petGrid img {
     width: 200px;
     height: 200px;
@@ -133,6 +137,7 @@ header h1 {
     justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
+    
 }
 
 /*End Image Grid*/
@@ -232,6 +237,9 @@ header h1 {
 
     h2 {
         margin-left: 5%;
+    }
+    .petExamples .description {
+        padding-left: 5%;
     }
     .petGrid {
         padding-left: 5%;
