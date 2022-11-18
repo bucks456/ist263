@@ -4,10 +4,23 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+#skip {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 2px;
+    position: absolute;
+    left: -999px;
+    color: #000;
+}
+#skip:focus {
+    left: 10px;
+    top: 30px;
+}
 h2 {
     margin-left: 10%;
     margin-bottom: 0.5em;
     font-weight: 700;
+    color: #6A96A6;
 }
 
 p {
@@ -23,8 +36,12 @@ p {
     margin-left: 1%;
     font-weight: 300;
     font-size: .9em;
-
-
+}
+a {
+    color: #22596C;
+}
+a:hover {
+    color: #3486a1;
 }
 
 /*End General*/
@@ -40,7 +57,11 @@ nav {
 }
 nav a {
     text-decoration: none;
-    color: #5C58A3;
+    color: #22596C;
+}
+nav a:hover {
+    color: #173D4A;
+    text-decoration: underline;
 }
 .navDivParent {
     display: flex;
@@ -64,7 +85,7 @@ nav a {
     width: 600px;
 }
 header {
-    background-color: #BCFAFF;
+    background-color: #EBB275;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-right: 10%;
@@ -109,7 +130,7 @@ header h1 {
 .petGrid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -150,12 +171,105 @@ header h1 {
     margin-top: .5em;
 }
 
-.testimonialsChild p {
-    width: 50%;
+.testimonialsChild {
+    width: 75%;
     margin-top: 0%;
+}
+
+.testimonialsChild img, p {
+    width:inherit;
 }
 
 /* End Testimonials */
 
 
-/* END HOME PAGE */
+/* END HOME PAGE */ 
+
+
+
+/* START MOBILE */
+
+@media only screen and (max-width: 600px) {
+    nav {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .navDivParent, .siteName {
+        flex-wrap: wrap;
+        display: block;
+    }
+    .navDivChild {
+        padding-left: 0%;
+        padding-top: 10px;
+    }
+    .heroDivParent {
+        display: block;
+        width: 100%;
+    }
+    .heroImg {
+        max-width: 100%;
+    }
+    .heroDivChildImg, .heroDivChildText {
+        flex-basis: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    header {
+        padding-right: 5%;
+        padding-left: 5%;
+        
+    }
+    header h1 {
+        font-size: 2em;
+    }
+    header p {
+        font-size: 1.2em;
+        max-width: 100%;
+    }
+    .heroDivChildText {
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        margin-left: 5%;
+    }
+    .petGrid {
+        padding-left: 5%;
+        padding-right: 5%;
+        justify-content:left;
+        justify-content: space-between;
+
+    }
+    .petGrid img {
+        width: 150px;
+        height: 150px;
+    }
+    .petBenefits {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .petBenefits li {
+        width: auto;
+    }
+    .testimonials {
+       margin-left: 5%;
+       margin-right: 5%;
+    }
+    .testimonialsParent {
+        display: block;
+    }
+    .testimonialsChild {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .testimonials img{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+/* END MOBILE */
