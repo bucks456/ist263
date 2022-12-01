@@ -1,0 +1,389 @@
+/*Start General*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#skip {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 2px;
+    position: absolute;
+    left: -999px;
+    color: #000;
+}
+#skip:focus {
+    left: 10px;
+    top: 30px;
+}
+h2 {
+    margin-left: 10%;
+    margin-bottom: .05em;
+    font-weight: 700;
+    color: #6A96A6;
+}
+
+p {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-weight: 400;
+    font-size: 1em;
+}
+.description {
+    font-weight: 500;
+    margin-bottom: 1em;
+
+}
+.copyright {
+    margin-left: 1%;
+    font-weight: 300;
+    font-size: .9em;
+}
+a {
+    color: #22596C;
+}
+a:hover {
+    color: #3486a1;
+}
+.bodyChunk {
+    width: 80%;
+    margin-left: 10%;
+}
+.bodyParagraph {
+    margin-bottom: 10px;
+}
+
+/*End General*/
+
+/* Start Navigation*/
+
+nav {
+    background-color: #FFE4B0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+nav a {
+    text-decoration: none;
+    color: #22596C;
+}
+nav a:hover {
+    color: #173D4A;
+    text-decoration: underline;
+}
+.navDivParent {
+    display: flex;
+}
+.navDivChild {
+    justify-content: space-around;
+    padding-right: 1.7em;
+    padding-left: 1.7em;
+    font-weight: 500;
+}
+.siteName {
+    padding-right: 6em;
+    padding-left: 0em;
+    font-weight: 600;
+}
+/* End Navigation*/
+
+/*Start Hero Section */
+
+.heroImg {
+    width: 600px;
+}
+header {
+    background-color: #EBB275;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+header p {
+    font-size: 1.3em;
+}
+header h1 {
+    font-size: 2.5em;
+    font-weight: 800;
+}
+.heroDivParent {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.heroDivChildText {
+    flex-basis: 60%;
+    margin-right: 1em;
+}
+.heroDivChildImg {
+    flex-basis: 40%;
+    margin-left: 1em;
+}
+.image {
+    width: 400px;
+}
+
+
+/*End Hero Section */
+
+/* START HOME PAGE */
+
+/*Start Image Grid*/
+.petExamples {
+    padding-left: 10%;
+}
+.petGrid img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.petGrid p {
+    padding-bottom: 20px;
+}
+.petGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+/*End Image Grid*/
+
+/* Start Pet Benefits */
+
+.petBenefits {
+    padding-left: 10%;
+}
+.petBenefits li {
+    margin-bottom: 5px;
+    width: 75%;
+}
+
+/* End Pet Benefits */
+
+/* Start Testimonials */
+
+.testimonials {
+    margin-left: 10%;
+}
+.testimonials img {
+    width: 400px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+.testimonialsParent {
+    display: flex;
+    margin-top: .5em;
+}
+
+.testimonialsChild {
+    width: 75%;
+    margin-top: 0%;
+}
+
+.testimonialsChild img, p {
+    width:inherit;
+}
+
+/* End Testimonials */
+
+
+/* END HOME PAGE */ 
+
+/* START PET OWNERSHIP PAGE */
+
+/* Start Question Grid */
+
+.questions .description {
+    margin-left: 10%;
+}
+.questionGrid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.questionRow1 {
+    
+    grid-column: 2;
+    display: flex;
+    justify-content: center;    
+}
+.questionRow2 {
+    
+    grid-column: 2;
+    display: flex;
+    justify-content: center;   
+}
+.questionRow3 {
+    
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.questionGrid p {
+    margin-right: 2em;
+}
+
+.questionChild {
+    flex-basis: 50%;
+    background-color: #EBB275;
+    border-radius: 60px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+/* End Question Grid */
+
+/* Start rest of page */
+
+.costsParent {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    background-color: #EBB275;
+    padding: 20px;
+    padding-left: 30px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+.costsChildParagraph {
+    flex-basis: 60%;
+    margin-right: 5em;
+}
+.costsChildImg {
+    flex-basis: 40%;
+}
+
+.responsibilitiesParent {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 10%;
+    background-color: #EBB275;
+    padding: 20px;
+    padding-right: 30px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.responsibilitiesChildParagraph {
+    flex-basis: 60%;
+    margin-left: 5em;
+    margin-right: 10%;
+}
+.responsibilitiesChildImg {
+    flex-basis: 40%;
+    margin-left: 10%;
+}
+
+.tipsParent {
+    margin-left: 10%;
+}
+
+
+/* END PET OWNERSHIP PAGE */
+
+
+
+/* START MOBILE */
+
+@media only screen and (max-width: 600px) {
+    nav {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .navDivParent, .siteName {
+        flex-wrap: wrap;
+        display: block;
+    }
+    .navDivChild {
+        padding-left: 0%;
+        padding-top: 10px;
+    }
+    .heroDivParent {
+        display: block;
+        width: 100%;
+    }
+    .heroImg {
+        max-width: 100%;
+    }
+    .heroDivChildImg, .heroDivChildText {
+        flex-basis: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    header {
+        padding-right: 5%;
+        padding-left: 5%;
+        
+    }
+    header h1 {
+        font-size: 2em;
+    }
+    header p {
+        font-size: 1.2em;
+        max-width: 100%;
+    }
+    .heroDivChildText {
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        margin-left: 5%;
+    }
+    .petExamples .description {
+        padding-left: 5%;
+    }
+    .petGrid {
+        padding-left: 5%;
+        padding-right: 5%;
+        justify-content:left;
+        justify-content: space-between;
+
+    }
+    .petGrid img {
+        width: 150px;
+        height: 150px;
+    }
+    .petBenefits {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .petBenefits li {
+        width: auto;
+    }
+    .testimonials {
+       margin-left: 5%;
+       margin-right: 5%;
+    }
+    .testimonialsParent {
+        display: block;
+    }
+    .testimonialsChild {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .testimonials img{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+/* END MOBILE */
