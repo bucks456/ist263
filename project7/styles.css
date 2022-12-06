@@ -145,7 +145,6 @@ header h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 10%;
     padding-right: 10%;
     
 }
@@ -238,7 +237,7 @@ header h1 {
 
 .questionChild {
     flex-basis: 50%;
-    background-color: #EBB275;
+    background-color: #EED7BE;
     border-radius: 60px;
     padding: 10px;
     margin: 10px;
@@ -255,7 +254,7 @@ header h1 {
     display: flex;
     justify-content: space-between;
     margin-left: 10%;
-    background-color: #EBB275;
+    background-color: #EED7BE;
     padding: 20px;
     padding-left: 30px;
     border-top-left-radius: 60px;
@@ -273,7 +272,7 @@ header h1 {
     display: flex;
     flex-direction: row-reverse;
     margin-right: 10%;
-    background-color: #EBB275;
+    background-color: #EED7BE;
     padding: 20px;
     padding-right: 30px;
     border-top-right-radius: 60px;
@@ -284,18 +283,83 @@ header h1 {
     margin-left: 5em;
     margin-right: 10%;
 }
+.responsibilitiesChildParagraph p {
+    width: 120%;
+}
 .responsibilitiesChildImg {
     flex-basis: 40%;
     margin-left: 10%;
 }
+.responsibilitiesChildImg img {
+    
+}
 
 .tipsParent {
     margin-left: 10%;
+    margin-right: 10%;
 }
 
 
 /* END PET OWNERSHIP PAGE */
 
+
+/* START PET INFO PAGE */
+
+.pets {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.pets h2 {
+    margin-left: 0%;
+}
+.pets p {
+    
+}
+.pets img {
+    
+}
+.pets iframe {
+    
+}
+.pets p {
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+.dogs {
+    display: flex;
+}
+.dogs p {
+    margin-right: 5em;
+}
+
+.cats {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.cats p {
+    margin-left: 5em;
+}
+
+.fish {
+    display: flex;
+}
+.fish p {
+    margin-right: 5em;
+}
+
+.snakes {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.snakes p {
+    margin-left: 5em;
+}
+
+
+
+
+/* END PET INFO PAGE */
 
 
 /* START MOBILE */
@@ -344,11 +408,11 @@ header h1 {
     h2 {
         margin-left: 5%;
     }
-    .petExamples .description {
+    .petExamples {
         padding-left: 5%;
     }
     .petGrid {
-        padding-left: 5%;
+        
         padding-right: 5%;
         justify-content:left;
         justify-content: space-between;
