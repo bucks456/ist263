@@ -298,6 +298,10 @@ header h1 {
     margin-left: 10%;
     margin-right: 10%;
 }
+.tipsChildParagraph p {
+    font-weight: 500;
+    margin-bottom: 1em;
+}
 
 
 /* END PET OWNERSHIP PAGE */
@@ -408,6 +412,8 @@ header h1 {
     h2 {
         margin-left: 5%;
     }
+
+    /* Start Home Mobile */
     .petExamples {
         padding-left: 5%;
     }
@@ -443,6 +449,96 @@ header h1 {
     .testimonials img{
         width: 100%;
     }
+/* End Home Mobile */
+
+/* Start Pet Ownership Mobile */
+    .questions .description {
+        margin-left: 5%;
+    }
+
+   
+    .questionGrid, .questionRow1, .questionRow2, .questionRow3 {
+        display: block;
+    }
+    .questionChild {
+        margin-bottom: 1em;
+        padding: 30px;
+    }
+    .costsParent {
+        display: block;
+    }
+    .costsChildParagraph {
+        margin-right: 0%;
+        margin-bottom: 1em;
+    }
+    .costsChildImg img {
+        max-width: 100%;
+    }
+
+    .responsibilitiesParent {
+        display: block;
+    }
+    .responsibilitiesChildParagraph {
+        margin-left: 0%;
+    }
+    .responsibilitiesChildParagraph {
+        width: 80%;
+        margin-bottom: 1em;
+    }
+    .responsibilitiesChildImg img {
+        max-width: 100%;
+    }
+    .responsibilitiesChildImg {
+        margin-left: 0%;
+    }
+    .tipsChildParagraph p {
+        font-weight: 500;
+        margin-bottom: 1em;
+        
+    }
+    .tipsParent {
+        margin-left: 5%;
+    }
+
+/* End Pet Ownership Mobile */
+
+/* Start Pet Info Mobile */
+
+.dogs {
+    display: block;
+}
+.dogs p {
+    width: 100%;
+}
+
+.cats {
+    display: block;
+}
+.cats p {
+    width: 100%;
+    margin-left: 0%;
+}
+.fish {
+    display: block;
+}
+.fish p {
+    width: 100%;
+}
+.fish iframe {
+    max-width: 100%;
+}
+.snakes {
+    display: block;
+}
+.snakes p {
+    width: 100%;
+    margin-left: 0%;
+}
+.snakes iframe {
+    max-width: 100%;
+}
+
+/* End Pet Info Mobile */
 
 }
 
