@@ -134,8 +134,8 @@ header h1 {
     padding-left: 10%;
 }
 .petGrid img {
-    width: 200px;
-    height: 200px;
+    /*width: 200px;
+    height: 200px;*/
     border-radius: 20px;
 }
 .petGrid p {
@@ -320,7 +320,7 @@ header h1 {
     
 }
 .pets img {
-    
+    max-width: 100%;
 }
 .pets iframe {
     
@@ -420,13 +420,16 @@ header h1 {
     .petGrid {
         
         padding-right: 5%;
-        justify-content:left;
-        justify-content: space-between;
+        text-align: left;
+        display: block;
+        
 
     }
     .petGrid img {
-        width: 150px;
-        height: 150px;
+        /*width: 150px;
+        height: 150px;*/
+        width: 75%;
+
     }
     .petBenefits {
         padding-left: 5%;
