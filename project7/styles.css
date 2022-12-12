@@ -151,6 +151,63 @@ header h1 {
 
 /*End Image Grid*/
 
+/* Start Modal */
+
+#modal {
+    text-align: center;
+    display: none;
+    padding: 30px;
+    background-color: #FFE4B0;
+    width: fit-content;
+    position: absolute;
+    top: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+#modal img {
+    width: 500px;
+}
+#modal p {
+    font-size: 24px;
+}
+#closeButton {
+    display: none;
+    font-size: 36px !important;
+}
+#closeButton p {
+    
+}
+#catModal {
+    display: none;
+}
+#dogModal {
+    display: none;
+}
+#guineaPigModal {
+    display: none;
+}
+#birdModal {
+    display: none;
+}
+#fishModal {
+    display: none;
+}
+#snakeModal {
+    display: none;
+}
+#lizardModal {
+    display: none;
+}
+#turtleModal {
+    display: none;
+}
+
+/* End Modal */
+
 /* Start Pet Benefits */
 
 .petBenefits {
@@ -451,6 +508,13 @@ header h1 {
     }
     .testimonials img{
         width: 100%;
+    }
+    #modal {
+        max-width: 100%;
+
+    }
+    #modal img {
+        max-width: 75%;
     }
 /* End Home Mobile */
 

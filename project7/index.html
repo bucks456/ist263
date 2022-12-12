@@ -8,6 +8,110 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" type="image/x-icon" href="../project/images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        function openCatModal () {
+            document.getElementById('catModal').style.display = "block";
+            document.getElementById('modal').style.display = "block";
+            document.getElementById('dogModal').style.display = "none";
+            document.getElementById('guineaPigModal').style.display = "none";
+            document.getElementById('birdModal').style.display = "none";
+            document.getElementById('fishModal').style.display = "none";
+            document.getElementById('snakeModal').style.display = "none";
+            document.getElementById('lizardModal').style.display = "none";
+            document.getElementById('turtleModal').style.display = "none";
+            document.getElementById('closeButton').style.display = "block";
+
+
+        }
+        function openDogModal () {
+            document.getElementById('dogModal').style.display = "block";
+            document.getElementById('modal').style.display = "block";
+            document.getElementById('catModal').style.display = "none";
+            document.getElementById('guineaPigModal').style.display = "none";
+            document.getElementById('birdModal').style.display = "none";
+            document.getElementById('fishModal').style.display = "none";
+            document.getElementById('snakeModal').style.display = "none";
+            document.getElementById('lizardModal').style.display = "none";
+            document.getElementById('turtleModal').style.display = "none";
+            document.getElementById('closeButton').style.display = "block";
+        }
+        function openGuineaPigModal () {
+            document.getElementById('dogModal').style.display = "none";
+            document.getElementById('modal').style.display = "block";
+            document.getElementById('catModal').style.display = "none";
+            document.getElementById('guineaPigModal').style.display = "block";
+            document.getElementById('birdModal').style.display = "none";
+            document.getElementById('fishModal').style.display = "none";
+            document.getElementById('snakeModal').style.display = "none";
+            document.getElementById('lizardModal').style.display = "none";
+            document.getElementById('turtleModal').style.display = "none";
+            document.getElementById('closeButton').style.display = "block";
+        }
+        function openBirdModal () {
+            document.getElementById('dogModal').style.display = "none";
+            document.getElementById('modal').style.display = "block";
+            document.getElementById('catModal').style.display = "none";
+            document.getElementById('guineaPigModal').style.display = "none";
+            document.getElementById('birdModal').style.display = "block";
+            document.getElementById('fishModal').style.display = "none";
+            document.getElementById('snakeModal').style.display = "none";
+            document.getElementById('lizardModal').style.display = "none";
+            document.getElementById('turtleModal').style.display = "none";
+            document.getElementById('closeButton').style.display = "block";
+        }
+        function openFishModal () {
+            document.getElementById('dogModal').style.display = "none";
+            document.getElementById('modal').style.display = "block";
+            document.getElementById('catModal').style.display = "none";
+            document.getElementById('guineaPigModal').style.display = "none";
+            document.getElementById('birdModal').style.display = "none";
+            document.getElementById('fishModal').style.display = "block";
+            document.getElementById('snakeModal').style.display = "none";
+            document.getElementById('lizardModal').style.display = "none";
+            document.getElementById('turtleModal').style.display = "none";
+            document.getElementById('closeButton').style.display = "block";
+        }
+        function openSnakeModal () {
+            document.getElementById('dogModal').style.display = "none";
+            document.getElementById('modal').style.display = "block";
+            document.getElementById('catModal').style.display = "none";
+            document.getElementById('guineaPigModal').style.display = "none";
+            document.getElementById('birdModal').style.display = "none";
+            document.getElementById('fishModal').style.display = "none";
+            document.getElementById('snakeModal').style.display = "block";
+            document.getElementById('lizardModal').style.display = "none";
+            document.getElementById('turtleModal').style.display = "none";
+            document.getElementById('closeButton').style.display = "block";
+        }
+        function openLizardModal () {
+            document.getElementById('dogModal').style.display = "none";
+            document.getElementById('modal').style.display = "block";
+            document.getElementById('catModal').style.display = "none";
+            document.getElementById('guineaPigModal').style.display = "none";
+            document.getElementById('birdModal').style.display = "none";
+            document.getElementById('fishModal').style.display = "none";
+            document.getElementById('snakeModal').style.display = "none";
+            document.getElementById('lizardModal').style.display = "block";
+            document.getElementById('turtleModal').style.display = "none";
+            document.getElementById('closeButton').style.display = "block";
+        }
+        function openTurtleModal () {
+            document.getElementById('dogModal').style.display = "none";
+            document.getElementById('modal').style.display = "block";
+            document.getElementById('catModal').style.display = "none";
+            document.getElementById('guineaPigModal').style.display = "none";
+            document.getElementById('birdModal').style.display = "none";
+            document.getElementById('fishModal').style.display = "none";
+            document.getElementById('snakeModal').style.display = "none";
+            document.getElementById('lizardModal').style.display = "none";
+            document.getElementById('turtleModal').style.display = "block";
+            document.getElementById('closeButton').style.display = "block";
+        }
+        function closeModal () {
+            document.getElementById('modal').style.display = "none";
+        }
+
+    </script>
 </head>
 <body>
     <a id="skip" href="#content">Skip to Content</a>
@@ -35,37 +139,37 @@
         <div class="petExamples">
             <p class="description">There are many different kinds of pets, including (but certainly not limited to):</p>
             <div class="petGrid">
-                <div>
+                <div onclick="openCatModal();">
                     <img src="../project/images/finalimages/petgridimages/smallcatfinal.jpg" alt="A cat on a chair">
                     <p>Cats</p>
                 </div>
-                <div>
+                <div onclick="openDogModal();">
                     <img src="../project/images/finalimages/petgridimages/smalldogfinal.jpg" alt="A dog">
                     <p>Dogs</p>
                 </div>
-                <div>
+                <div onclick="openGuineaPigModal();">
                     <img src="../project/images/finalimages/petgridimages/smallguineapigsfinal.jpg" alt="Two guinea pigs eating">
                     <p>Guinea pigs</p>
                 </div>
-                <div>
+                <div onclick="openBirdModal();">
                     <img src="../project/images/finalimages/petgridimages/smallbirdfinal.jpg" alt="A bird">
                     <p>Birds</p>
                 </div>
             </div>
             <div class="petGrid">
-                <div>
+                <div onclick="openFishModal();">
                     <img src="../project/images/finalimages/petgridimages/smallfishfinal.jpg" alt="A fish">
                     <p>Fish</p>
                 </div>
-                <div>
+                <div onclick="openSnakeModal();">
                     <img src="../project/images/finalimages/petgridimages/smallsnakefinal.jpg" alt="A snake">
                     <p>Snakes</p>
                 </div>
-                <div>
+                <div onclick="openLizardModal();">
                     <img src="../project/images/finalimages/petgridimages/smalllizardfinal.jpg" alt="A lizard">
                     <p>Lizards</p>
                 </div>
-                <div>
+                <div onclick="openTurtleModal();">
                     <img src="../project/images/finalimages/petgridimages/smallturtlefinal.jpg" alt="A turtle">
                     <p>Turtles</p>
                 </div>
@@ -96,6 +200,42 @@
                     <p>My cats are a special part of my life. Wherever I go in the house, my cats follow. When I'm watching TV, they'll jump up on the couch and watch with me. When I go to bed, they'll curl up by my feet. When I go to sit down at my desk to work, there will be a cat on my lap right as I sit down. The bond we share is truly special.</p>
                 </div>
             </div>
+        </div>
+        <div id="modal">
+            <p id="closeButton" onclick="closeModal();">X</p>
+            <div id="catModal" onclick="openCatModal();">
+                <img src="../project/images/finalimages/petgridimages/smallcatfinal.jpg" alt="A cat on a chair">
+                <p class="animal">Cats</p>
+            </div>
+            <div id="dogModal" onclick="openDogModal();">
+                <img src="../project/images/finalimages/petgridimages/smalldogfinal.jpg" alt="A dog">
+                <p class="animal">Dogs</p>
+            </div>
+            <div id="guineaPigModal" onclick="openModal();">
+                <img src="../project/images/finalimages/petgridimages/smallguineapigsfinal.jpg" alt="Two guinea pigs eating">
+                <p class="animal">Guinea pigs</p>
+            </div>
+            <div id="birdModal" onclick="openModal();">
+                <img src="../project/images/finalimages/petgridimages/smallbirdfinal.jpg" alt="A bird">
+                <p class="animal">Birds</p>
+            </div>
+            <div id="fishModal" onclick="openModal();">
+                <img src="../project/images/finalimages/petgridimages/smallfishfinal.jpg" alt="A fish">
+                <p class="animal">Fish</p>
+            </div>
+            <div id="snakeModal" onclick="openModal();">
+                <img src="../project/images/finalimages/petgridimages/smallsnakefinal.jpg" alt="A snake">
+                <p class="animal">Snakes</p>
+            </div>
+            <div id="lizardModal" onclick="openModal();">
+                <img src="../project/images/finalimages/petgridimages/smalllizardfinal.jpg" alt="A lizard">
+                <p class="animal">Lizards</p>
+            </div>
+            <div id="turtleModal" onclick="openModal();">
+                <img src="../project/images/finalimages/petgridimages/smallturtlefinal.jpg" alt="A turtle">
+                <p class="animal">Turtles</p>
+            </div>
+            
         </div>
     </main>
     <footer>
